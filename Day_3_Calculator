@@ -1,0 +1,54 @@
+# Day_3_Calculator
+
+a = float(input("Enter the first number "))
+b = float(input("Enter the second number "))
+x = input("Enter the operation like +, -, *, /, //, **, % ")
+
+match x:
+  case "+":
+       print("This is the result", a+b)
+  case "-":
+       print("This is the result", a-b)
+  case "*":
+       print("This is the result", a*b)
+  case "**":
+       print("This is the result", a**b)
+  case "/":
+       print("This is the result", a/b)
+  case "//":
+       print("This is the result", a//b)
+  case " % ":
+       print("This is the result", a%b)
+  case "default":
+       print("This is the result", "Invalid Operation")
+
+
+#OR OR OR OR OR OR
+
+a = float(input("Enter the first number "))
+b = float(input("Enter the second number "))
+x = input("Enter the operation like +, -, *, /, //, **, % ")
+
+if x == '+':
+  print("This is the result", a+b)
+
+elif x == '-':
+  print("This is the result", a-b)
+
+elif x == '*':
+  print("This is the result", a*b)
+
+elif x == '/':
+  print("This is the result", a/b)
+
+elif x == '%':
+  print("This is the result", a%b)
+  
+elif x == '**':
+  print("This is the result", a**b)
+
+elif x =='//':
+  print("This is the result", a//b)
+
+elif x == "+" or "-" or "*" or "/" or "//" or "**" or " % " :
+  print("Please enter the valid oprator")
