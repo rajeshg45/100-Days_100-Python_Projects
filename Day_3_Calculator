@@ -1,5 +1,6 @@
 # Day_3_Calculator
 
+#This code is run only and above Python 3.10.13 version
 a = float(input("Enter the first number "))
 b = float(input("Enter the second number "))
 x = input("Enter the operation like +, -, *, /, //, **, % ")
