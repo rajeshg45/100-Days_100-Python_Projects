@@ -1,0 +1,14 @@
+Day_4_Clock-Time
+
+import time
+current_time = time.strftime("%H:%M:%S")
+print(current_time)
+
+if current_time < "12:00:00":
+  print("Good Morning Sarkar!!")
+elif current_time >= "12:00:00" and current_time <= "17:59:59" :
+  print(" Good Afternoon Sarkar!!")
+elif current_time >= "18:00:00" and current_time <= "19:59:59" :
+  print("Good Eveing Sarkar!!")
+else:
+  print("Good Night Sarkar!!")
